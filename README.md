@@ -1,12 +1,12 @@
 Kodak-Slide-Projector-Hacks
 ===========================
-システム構成
+##システム構成
 
 
-回路図
+##回路図
 
 
-プログラムの書き換え方
+##プログラムの書き換え方
 1. Arduino IDE(開発環境)をダウンロードする。
 
 2. [www.arduino.cc](http://www.arduino.cc/) にアクセスする。
@@ -19,7 +19,7 @@ Kodak-Slide-Projector-Hacks
    https://github.com/mitsuhito/Kodak-Slide-Projector-Hacks/archive/master.zip
 
 6. Arduino IDEを起動する。
-   [Arduino IDE Icon](https://raw.github.com/mitsuhito/Kodak-Slide-Projector-Hacks/master/arduino_ied.jpg)
+   ![Arduino IDE Icon](https://raw.github.com/mitsuhito/Kodak-Slide-Projector-Hacks/master/arduino_ied.jpg)
 
 7. Arduino IDEのメニューバーから "ファイル" > "開く" を選択し、5番目でダウンロードした synced_kodak_slide_projector.ino を指定して開く。
 
