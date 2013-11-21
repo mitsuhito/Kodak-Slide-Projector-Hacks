@@ -5,6 +5,7 @@ Kodak-Slide-Projector-Hacks
 
 ##回路図
    ![Schimatic](https://raw.github.com/mitsuhito/Kodak-Slide-Projector-Hacks/master/schimatic.jpg)
+   [Schimatic](https://github.com/mitsuhito/Kodak-Slide-Projector-Hacks/blob/master/schimatic.pdf)
 
 ##プログラムの書き換え方
 1. Arduino IDE(開発環境)を入れる。
