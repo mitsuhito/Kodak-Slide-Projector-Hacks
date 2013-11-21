@@ -18,7 +18,7 @@ Kodak-Slide-Projector-Hacks
 
 4. Arduino IDEを起動する。
    
-   ![Arduino IDE Icon](https://raw.github.com/mitsuhito/Kodak-Slide-Projector-Hacks/master/arduino_ied.jpg)
+   ![Arduino IDE Icon](https://raw.github.com/mitsuhito/Kodak-Slide-Projector-Hacks/master/arduino_ide.jpg)
    
    このアイコンを見つけてダブルクリックする。
 
@@ -44,6 +44,8 @@ const int MAX_DELAY = 5000;
 8. Arduino IDEのメニューバーから ```ツール``` > ```マイコンボード``` > ```Arduino UNO``` を選択する。
 
 9. Arduino IDEのメニューバーから ```ツール``` > ```シリアルポート``` > ```/dev/tty.usbmodem*``` を選択する。
+
+   ```/dev/tty.usbmodem``` からはじまる行を選択してください。末尾の文字は環境ごとに変化します。
 
 10. Arduino IDEのメニューバーから ```ファイル``` > ```マイコンボードに書き込む``` を選択する。
    
