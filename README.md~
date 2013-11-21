@@ -22,7 +22,7 @@ Kodak-Slide-Projector-Hacks
    
    このアイコンを見つけてダブルクリックする。
 
-5. Arduino IDEのメニューバーから ```ファイル``` > ```開く``` を選択し、3番目でダウンロードした``` synced_kodak_slide_projector.ino``` を指定して開く。
+5. Arduino IDEのメニューバーから ```ファイル``` > ```開く``` を選択し、5番目でダウンロードした``` synced_kodak_slide_projector.ino``` を指定して開く。
 
 6. (オプション)ソースコードの必要な部分の改変を行う。
 
