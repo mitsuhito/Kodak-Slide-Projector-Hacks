@@ -1,7 +1,7 @@
 Kodak-Slide-Projector-Hacks
 ===========================
 ##システム構成
-図挿入する
+   ![Diagram](https://raw.github.com/mitsuhito/Kodak-Slide-Projector-Hacks/master/synced_kodak_slide_projector_diagram.jpg)
 
 ##回路図
 図挿入する
