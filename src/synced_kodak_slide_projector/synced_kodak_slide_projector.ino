@@ -62,8 +62,8 @@ void setup()
 
   pinMode(POTENTIOMETER_PIN, INPUT);
 
-  pinMode(BUTTON_1_PIN, INPUT);
-  pinMode(BUTTON_2_PIN, INPUT);
+  pinMode(INPUT_PULLUP, INPUT);
+  pinMode(INPUT_PULLUP, INPUT);
 
   attachInterrupt(0, button_1_pressed, CHANGE);
   attachInterrupt(1, button_2_pressed, CHANGE);
