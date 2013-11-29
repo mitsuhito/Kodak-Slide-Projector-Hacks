@@ -31,6 +31,15 @@ const int MIN_DELAY = 900;
 // 最大スライド時間間隔(5000ms)
 const int MAX_DELAY = 5000;
 
+// 連続してスライドさせる数
+const int NUM_GROUP_SLIDE = 10;
+// 小休止する時間(ミリ秒)
+const int WAIT_MS = 5000;
+
+//unsigned long timestamp = 0;
+// スライド数のカウンタ
+unsigned long counter = 0;
+
 //
 // ピンモードの設定、割り込みピンの設定、シリアルポートの初期化
 //
@@ -43,9 +52,12 @@ void setup()
   pinMode(RELAY_2_PIN, OUTPUT);
 
   pinMode(POTENTIOMETER_PIN, INPUT);
-  
+
   pinMode(BUTTON_1_PIN, INPUT_PULLUP);
   pinMode(BUTTON_2_PIN, INPUT_PULLUP);
+  
+  //timestamp = millis();
+  counter = 0;
   
   Serial.begin(9600);
 }
@@ -65,6 +77,12 @@ void loop()
   Serial.print("delay(ms)=");
   Serial.print(delay_ms);
 
+  if(counter == NUM_GROUP_SLIDE - 1)
+  {
+    counter = 0;
+    delay(WAIT_MS);
+  }
+
   // スライドプロジェクタAを先にスライドさせる信号を送る
   PORTD |= B00010000;
   delay(20);
@@ -83,5 +101,7 @@ void loop()
   
   // 可変抵抗で読み取った時間間隔分停止を保持する
   delay(delay_ms);
+  
+  counter++;
 }
 
