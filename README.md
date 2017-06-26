@@ -15,9 +15,9 @@ Kodak-Slide-Projector-Hacks
 
 ## プログラムの書き換え方 (ハードウェア上に実装されているつまみを利用する場合)
 1. Arduino IDE(開発環境)を入れる。
-   [Arduino 1.6.7](http://arduino.cc/en/Main/Software#toc2)をダウンロード。
+   [Arduino 1.8.3](http://arduino.cc/en/Main/Software)をダウンロード。
 
-2. ダウンロードしたarduino-1.6.7-(macosx, windows).zipを任意の場所で展開する。
+2. ダウンロードしたarduino-1.8.3-(macosx, windows).zipを任意の場所で展開する。
 
 3. Kodak Slide Projector HacksのArduino用ソースコードをダウンロードし、展開する。
    https://github.com/mitsuhito/Kodak-Slide-Projector-Hacks/archive/master.zip
@@ -63,9 +63,9 @@ const int MAX_DELAY = 5000;
 
 ## ハードウェア上に実装されているつまみを利用しないで、ソフトウェアだけでスライド時間間隔を指定する場合
 1. Arduino IDE(開発環境)を入れる。
-   [Arduino 1.6.7](http://arduino.cc/en/Main/Software#toc2)をダウンロード。
+   [Arduino 1.8.3](http://arduino.cc/en/Main/Software)をダウンロード。
 
-2. ダウンロードしたarduino-1.6.7-(macosx, windows).zipを任意の場所で展開する。
+2. ダウンロードしたarduino-1.8.3-(macosx, windows).zipを任意の場所で展開する。
 
 3. Kodak Slide Projector HacksのArduino用ソースコードをダウンロードし、展開する。
    https://github.com/mitsuhito/Kodak-Slide-Projector-Hacks/archive/master.zip
